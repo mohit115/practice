@@ -1,0 +1,20 @@
+Actor :
+    user
+    bank/wallet
+
+Actions:
+    bank can only create the user 
+    user can add/withdraw money 
+    user can transfer the money     
+    bank has to authenticate the user for every transaction   (pass )
+    bank has to maintain transaction history
+
+
+
+interaction between the actor :
+    CRUD user
+
+    transaction :
+        add money 
+        withdraw money
+            

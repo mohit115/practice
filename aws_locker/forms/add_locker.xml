@@ -1,0 +1,13 @@
+<!-- forms.html -->
+{{if .Success}}
+    <h1>Locker are added now</h1>
+{{else}}
+    <h1>Please input Locker details</h1>
+    <form method="POST">
+        <label>Locker type:</label><br />
+        <input type="text" name="type"><br />
+        <label>Locker count:</label><br />
+        <input type="text" name="count"><br />
+        <input type="submit">
+    </form>
+{{end}}
